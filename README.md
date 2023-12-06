@@ -12,6 +12,7 @@ Implementation of an Undirected Graph of vertices denoting locations and edges d
 **UPDATE** to load a file full of TRAFFIC commands  
 
 # Implementation :
+The Graph uses an adjacencyList array of Linked Lists for tracking edges. This optimizes for space in case of a sparse graph.
 To calculate the lowest path between 2 vertices and the weight of said path, **dijkstra's algorithm** was used.  
 In order to have a worst case time complexity of **O(|E|log(|V|))** where E is the number of edges and V is the number of vertices (assuming the graph is connected), a **MinHeap** class was created.  
 
