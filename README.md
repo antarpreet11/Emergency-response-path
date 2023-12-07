@@ -17,4 +17,4 @@ Implementation of an Undirected Graph of vertices denoting locations and edges d
 - In order to have a worst case time complexity of **O(|E|log(|V|))** where E is the number of edges and V is the number of vertices (assuming the graph is connected), a **MinHeap** class was created.  
 
 # Testing :
-Extensive testing was done using **large** custom generated input files consisting of over 5000 lines. Memory leaks were tested using **Valgrind**.
+Extensive testing was done using **large** custom generated input files consisting of over 5000 lines. Memory leaks were tested using **Valgrind**. This was tested for a graph accommodating a maximum of of 500,000 vertices.
